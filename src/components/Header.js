@@ -209,7 +209,7 @@ const Header = ({ userToken, setTokenAndId }) => {
         <div>
           <div>
             <i
-              className="fas fa-user"
+              className="fas fa-user login-icon"
               onClick={() => {
                 setProfileModal(!profileModal);
               }}
@@ -255,6 +255,7 @@ const Header = ({ userToken, setTokenAndId }) => {
                   <>
                     <Link
                       to="/login"
+                      className="login-button"
                       data-aos="fade-down"
                       data-aos-delay={100}
                       onClick={() => {
@@ -265,6 +266,7 @@ const Header = ({ userToken, setTokenAndId }) => {
                     </Link>
                     <Link
                       to="/signup"
+                      className="login-button"
                       data-aos="fade-down"
                       onClick={() => {
                         setProfileModal(!profileModal);
@@ -278,7 +280,7 @@ const Header = ({ userToken, setTokenAndId }) => {
             )}
           </div>
 
-          <Link to="/contact" className="btn-classic-blue ">
+          <Link to="/contact" className="btn-main orange-color">
             Contact
           </Link>
         </div>

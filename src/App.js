@@ -1,11 +1,15 @@
 import "./App.css";
 
+// I need a better way to import this. Seems little messy
+import "./Custom.css";
+
 // Packages
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Cookies from "js-cookie";
+
 
 // Containers
 import Home from "./containers/Home";

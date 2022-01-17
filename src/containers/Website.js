@@ -48,7 +48,7 @@ const Website = () => {
           <div data-aos="fade-up" data-aos-delay={400}>
             {" "}
             <button
-              className="btn-classic"
+              className="btn-main orange-color"
               onClick={() => history.push("/contact")}
             >
               Ask for a quote now
@@ -152,7 +152,7 @@ const Website = () => {
                   Prices start from <span>£499</span>
                 </h5>
                 <button
-                  className="btn-classic-blue"
+                  className="btn-main orange-color"
                   onClick={() => history.push("/contact")}
                 >
                   Get your free quote
@@ -179,7 +179,7 @@ const Website = () => {
                   Prices start from <span>£1299</span>
                 </h5>
                 <button
-                  className="btn-classic-blue"
+                  className="btn-main orange-color"
                   onClick={() => history.push("/contact")}
                 >
                   Get your free quote
@@ -207,7 +207,7 @@ const Website = () => {
                   Prices start from <span>N/A</span>
                 </h5>
                 <button
-                  className="btn-classic-blue"
+                  className="btn-main orange-color"
                   onClick={() => history.push("/contact")}
                 >
                   Get your free quote
@@ -244,7 +244,7 @@ const Website = () => {
                   Prices start from <span>£29/day</span>
                 </h5>
                 <button
-                  className="btn-classic-blue"
+                  className="btn-main orange-color hover-orange"
                   onClick={() => history.push("/contact")}
                 >
                   Get your free quote
@@ -272,7 +272,7 @@ const Website = () => {
                   Prices start from <span>£39/month</span>
                 </h5>
                 <button
-                  className="btn-classic-blue"
+                  className="btn-main orange-color hover-orange"
                   onClick={() => history.push("/contact")}
                 >
                   Get your free quote
@@ -300,7 +300,7 @@ const Website = () => {
                   Prices start from <span> £49</span>
                 </h5>
                 <button
-                  className="btn-classic-blue"
+                  className="btn-main orange-color hover-orange"
                   onClick={() => history.push("/contact")}
                 >
                   Get your free quote

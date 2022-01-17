@@ -85,7 +85,7 @@ const Contact = () => {
               <h1 className="txt-header-small-white">
                 Your email has been sent !
               </h1>
-              <button className="btn-classic" onClick={() => setSuccess()}>
+              <button className="btn-main orange-color" onClick={() => setSuccess()}>
                 Send another
               </button>
             </>
@@ -202,7 +202,7 @@ const Contact = () => {
                 <h5 className="error-message">{errorMessage}</h5>
               )}
               <button
-                className="btn-classic-blue"
+                className="btn-main orange-color"
                 onClick={() => submitHandle()}
               >
                 Submit
