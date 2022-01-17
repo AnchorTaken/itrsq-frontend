@@ -76,7 +76,7 @@ const Header = ({ userToken, setTokenAndId }) => {
             className="txt-header-medium-dynamic"
             onClick={() => setBurgerModal(false)}
           >
-            Contact
+          Contact
           </Link>
           {userToken ? (
             <>
@@ -281,7 +281,8 @@ const Header = ({ userToken, setTokenAndId }) => {
           </div>
 
           <Link to="/contact" className="btn-main orange-color">
-            Contact
+          <span className="contact-mobile"><i class="fa fa-phone"></i></span>  
+          <span className="contact-desktop">Contact</span>  
           </Link>
         </div>
       </div>
