@@ -69,6 +69,17 @@
     transition: all 0.2s ease;
     margin-top: 4px;
 }
+.txt-description-large-white:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f054";
+    position: absolute;
+    left: -21px;
+    font-size: 17px;
+}
+.support__container span {
+    color:white;
+}
 .txt-description-large-white:after,.support__container h3:hover:after {
     width: 100%!important;
 }
